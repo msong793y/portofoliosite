@@ -4139,5 +4139,26 @@ input, select, textarea {
 		bottom:500px;
 		/* z-index: 10; */
 	}
+
+	.skill-icons{
+		position: relative;
+		bottom: 50px;
+	}
 	
-		
+	.iconify { font-size: 100px;
+				width: 150px;
+				height: 100px;}
+
+	.skill-icons-row1{
+		margin-top:5%;
+		margin-bottom: 5%;
+	}
+
+	#header{
+		position:static;
+	}
+
+	.bottomIcon *{
+		font-size: 200%;
+		/* height: 100px; */
+	}
