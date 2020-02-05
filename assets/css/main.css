@@ -4132,12 +4132,11 @@ input, select, textarea {
 		bottom:500px;
 	}
 
-		#cheddargif.cheddargif{
+	#cheddargif.cheddargif{
 		position: relative;
 		width:280%;
 		right:320%;
 		bottom:500px;
-		/* z-index: 10; */
 	}
 
 	.skill-icons{
