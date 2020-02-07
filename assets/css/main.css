@@ -4125,24 +4125,28 @@ input, select, textarea {
 
 	#dumblrgif.dumblr{
 		position: relative;
-		width:250%;
+		width:220%;
 		right:280%;
 		bottom:350px;
+		height:250%;
+
 		/* z-index: 10; */
 	}
 
 	#ridegif.ridegif{
 		position: relative;
-		width:250%;
-		left:140%;
+		width:220%;
+		height:150%;
+		left:150%;
 		bottom:350px;
 	}
 
 	#cheddargif.cheddargif{
 		position: relative;
-		width:250%;
+		width:220%;
 		right:280%;
 		bottom:500px;
+		height:150%;
 	}
 
 	.skill-icons{
