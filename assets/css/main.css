@@ -4126,22 +4126,22 @@ input, select, textarea {
 	#dumblrgif.dumblr{
 		position: relative;
 		width:250%;
-		right:300%;
-		bottom:300px;
+		right:280%;
+		bottom:350px;
 		/* z-index: 10; */
 	}
 
 	#ridegif.ridegif{
 		position: relative;
 		width:250%;
-		left:150%;
+		left:140%;
 		bottom:350px;
 	}
 
 	#cheddargif.cheddargif{
 		position: relative;
 		width:250%;
-		right:300%;
+		right:280%;
 		bottom:500px;
 	}
 
