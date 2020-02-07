@@ -4116,37 +4116,55 @@ input, select, textarea {
 
 	}
 
+	/* .projectContent{
+		width:90vw;
+		display:flex;
+		flex-direction: row;
+	} */
+
 
 	#dumblrgif.dumblr{
 		position: relative;
-		width:280%;
-		right:320%;
-		bottom:500px;
+		width:250%;
+		right:300%;
+		bottom:300px;
 		/* z-index: 10; */
 	}
 
 	#ridegif.ridegif{
 		position: relative;
-		width:280%;
+		width:250%;
 		left:150%;
-		bottom:500px;
+		bottom:350px;
 	}
 
 	#cheddargif.cheddargif{
 		position: relative;
-		width:280%;
-		right:320%;
+		width:250%;
+		right:300%;
 		bottom:500px;
 	}
 
 	.skill-icons{
+		display:flex;
+		flex-direction: column;
 		position: relative;
 		bottom: 50px;
-	}
+		width:90%;
 	
-	.iconify { font-size: 100px;
-				width: 150px;
-				height: 100px;}
+	}
+	/* .skill-icons>*>*{
+		display:flex;
+		flex-direction: column;
+
+	} */
+	
+	.iconify { 
+		font-size: 100%;
+		width: 70px;
+		height: 70px;
+	}
+
 
 	.skill-icons-row1{
 		margin-top:5%;
@@ -4160,4 +4178,17 @@ input, select, textarea {
 	.bottomIcon *{
 		font-size: 200%;
 		/* height: 100px; */
+	}
+
+	.skill-row{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-around;
+		width:90vw;
+		margin-right:20vw;
+	}
+
+	.skill-row>*{
+		display:flex;
+		flex-direction:column;
 	}
