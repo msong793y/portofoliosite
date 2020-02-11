@@ -4154,7 +4154,9 @@ input, select, textarea {
 		flex-direction: column;
 		position: relative;
 		bottom: 50px;
-		width:90%;
+		width: 100vw;
+		/* margin:auto; */
+		/* left: initial; */
 	
 	}
 	/* .skill-icons>*>*{
@@ -4188,8 +4190,9 @@ input, select, textarea {
 		display:flex;
 		flex-direction: row;
 		justify-content: space-around;
-		width:75vw;
-		margin-right:20vw;
+		max-width:82vw;
+		/* justify-content: space-between; */
+		/* width:max-content; */
 	}
 
 	.skill-row>*{
@@ -4197,3 +4200,9 @@ input, select, textarea {
 		flex-direction:column;
 	}
 
+	.techContainer{
+		display:flex;
+		flex-direction:column;
+		justify-content: space-around;
+
+	}
