@@ -4122,7 +4122,7 @@ input, select, textarea {
 		flex-direction: row;
 	} */
 
-
+/* 
 	#dumblrgif.dumblr{
 		position: relative;
 		width:220%;
@@ -4131,15 +4131,24 @@ input, select, textarea {
 		height:250%;
 
 		/* z-index: 10; */
+	/* } */ 
+	.dumblrcontainer{
+		position: absolute;
+		right:65vw;
+		bottom: 25vh;
 	}
 
-	#ridegif.ridegif{
-		position: relative;
-		width:220%;
-		height:150%;
-		left:150%;
-		bottom:350px;
+	.webmVideo{
+		width:56vw;
+		height:auto;
 	}
+
+	.rideContainer{
+		position: absolute;
+		left:38vw;
+		bottom: 25vh;
+	}
+
 
 	#cheddargif.cheddargif{
 		position: relative;
@@ -4210,5 +4219,5 @@ input, select, textarea {
 		display:flex;
 		flex-direction:column;
 		justify-content: space-evenly;
-
 	}
+	
