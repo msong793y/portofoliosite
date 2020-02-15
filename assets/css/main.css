@@ -3595,6 +3595,95 @@ input, select, textarea {
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
+			.dumblrcontainer{
+		position: absolute;
+		right:65vw;
+		bottom: 25vh;
+	}
+
+	.webmVideo{
+		width:56vw;
+		height:auto;
+	}
+
+	.rideContainer{
+		position: absolute;
+		left:40vw;
+		bottom: 25vh;
+	}
+
+
+	#cheddargif.cheddargif{
+		position: relative;
+		width:220%;
+		right:270%;
+		bottom:500px;
+		height:150%;
+	}
+
+	.skill-icons{
+		display:flex;
+		flex-direction: column;
+		position: relative;
+		bottom: 50px;
+		width: 100vw;
+		/* margin:auto; */
+		/* left: initial; */
+	
+	}
+	/* .skill-icons>*>*{
+		display:flex;
+		flex-direction: column;
+
+	} */
+	
+	.iconify { 
+		font-size: 100%;
+		width: 70px;
+		height: 70px;
+	}
+
+
+	.skill-icons-row1{
+		margin-top:5%;
+		margin-bottom: 5%;
+	}
+
+	#header{
+		position:static;
+	}
+
+	.bottomIcon *{
+		font-size: 200%;
+		/* height: 100px; */
+	}
+
+	.skill-row{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		/* max-width:82vw; */
+		/* justify-content: space-between; */
+		/* width:max-content; */
+	}
+
+	.skill-row>*{
+		display:flex;
+		flex-direction:column;
+	}
+	.middleContainer{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.techContainer{
+		display:flex;
+		flex-direction:column;
+		justify-content: space-evenly;
+	}
+	
 
 		/* Basic */
 
@@ -3607,6 +3696,96 @@ input, select, textarea {
 /* Large */
 
 	@media screen and (max-width: 1280px) {
+
+			.dumblrcontainer{
+		position: absolute;
+		right:65vw;
+		bottom: 25vh;
+	}
+
+	.webmVideo{
+		width:56vw;
+		height:auto;
+	}
+
+	.rideContainer{
+		position: absolute;
+		left:40vw;
+		bottom: 25vh;
+	}
+
+
+	#cheddargif.cheddargif{
+		position: relative;
+		width:220%;
+		right:270%;
+		bottom:500px;
+		height:150%;
+	}
+
+	.skill-icons{
+		display:flex;
+		flex-direction: column;
+		position: relative;
+		bottom: 50px;
+		width: 100vw;
+		/* margin:auto; */
+		/* left: initial; */
+	
+	}
+	/* .skill-icons>*>*{
+		display:flex;
+		flex-direction: column;
+
+	} */
+	
+	.iconify { 
+		font-size: 100%;
+		width: 70px;
+		height: 70px;
+	}
+
+
+	.skill-icons-row1{
+		margin-top:5%;
+		margin-bottom: 5%;
+	}
+
+	#header{
+		position:static;
+	}
+
+	.bottomIcon *{
+		font-size: 200%;
+		/* height: 100px; */
+	}
+
+	.skill-row{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		/* max-width:82vw; */
+		/* justify-content: space-between; */
+		/* width:max-content; */
+	}
+
+	.skill-row>*{
+		display:flex;
+		flex-direction:column;
+	}
+	.middleContainer{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.techContainer{
+		display:flex;
+		flex-direction:column;
+		justify-content: space-evenly;
+	}
+	
 
 		/* Basic */
 
@@ -3658,6 +3837,11 @@ input, select, textarea {
 /* Medium */
 
 	@media screen and (max-width: 980px) {
+
+		.videoContainer{
+			position:absolute;
+			bottom: 40vh;
+		}
 
 		/* Basic */
 
@@ -3755,7 +3939,23 @@ input, select, textarea {
 		display: none;
 	}
 
+	
 	@media screen and (max-width: 736px) {
+
+		.videoContainer{
+		display:none;
+		margin-left: 50vw;
+		
+		}
+		.projectContent{
+			display: flex;
+			flex-direction: column-reverse;
+		}
+
+		.webmVideo{
+		width:56vw;
+		height:auto;
+		}
 
 		/* Basic */
 
@@ -4132,92 +4332,3 @@ input, select, textarea {
 
 		/* z-index: 10; */
 	/* } */ 
-	.dumblrcontainer{
-		position: absolute;
-		right:65vw;
-		bottom: 25vh;
-	}
-
-	.webmVideo{
-		width:56vw;
-		height:auto;
-	}
-
-	.rideContainer{
-		position: absolute;
-		left:40vw;
-		bottom: 25vh;
-	}
-
-
-	#cheddargif.cheddargif{
-		position: relative;
-		width:220%;
-		right:270%;
-		bottom:500px;
-		height:150%;
-	}
-
-	.skill-icons{
-		display:flex;
-		flex-direction: column;
-		position: relative;
-		bottom: 50px;
-		width: 100vw;
-		/* margin:auto; */
-		/* left: initial; */
-	
-	}
-	/* .skill-icons>*>*{
-		display:flex;
-		flex-direction: column;
-
-	} */
-	
-	.iconify { 
-		font-size: 100%;
-		width: 70px;
-		height: 70px;
-	}
-
-
-	.skill-icons-row1{
-		margin-top:5%;
-		margin-bottom: 5%;
-	}
-
-	#header{
-		position:static;
-	}
-
-	.bottomIcon *{
-		font-size: 200%;
-		/* height: 100px; */
-	}
-
-	.skill-row{
-		display:flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-		/* max-width:82vw; */
-		/* justify-content: space-between; */
-		/* width:max-content; */
-	}
-
-	.skill-row>*{
-		display:flex;
-		flex-direction:column;
-	}
-	.middleContainer{
-		display:flex;
-		flex-direction: column;
-		align-items: center;
-
-	}
-
-	.techContainer{
-		display:flex;
-		flex-direction:column;
-		justify-content: space-evenly;
-	}
-	
