@@ -3838,9 +3838,26 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-		.videoContainer{
-			position:absolute;
-			bottom: 40vh;
+		.webmVideo{
+			position:fixed;
+			bottom: 110%;
+			margin-left:42vw;
+			width: 50vw;
+		}
+
+		.leftWebm{
+			position: fixed;
+			right:24vw;
+
+		}
+		.cheddarWebm{
+			bottom: 65vh;
+		}
+
+		.projectContent{
+			display: flex;
+			flex-direction: column-reverse;
+			justify-content: space-around;
 		}
 
 		/* Basic */
@@ -3947,10 +3964,7 @@ input, select, textarea {
 		margin-left: 50vw;
 		
 		}
-		.projectContent{
-			display: flex;
-			flex-direction: column-reverse;
-		}
+		
 
 		.webmVideo{
 		width:56vw;
